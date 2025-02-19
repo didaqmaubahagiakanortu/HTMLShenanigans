@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .border {
+        padding: 10px; border-width: 4px;
+    }
+    .color1 {
+        background: aquamarine;
+    }
+    .color2 {
+        background-color: goldenrod;
+    }
+    .color3 {
+        background-color: mediumorchid; color: white;
+    }
+    .solid {
+        border-style: solid; border-color: blue;
+    }
+    .dotted {
+        border-style: dotted; border-color: lightslategray;
+    }
+    .double {
+        border-style: double; border-color: blueviolet;
+    }
+    .ridge {
+        border-style: ridge;
+    }
+    .inset {
+        border-style: inset;
+    }
+    .outset {
+        border-style: outset;
+    }
+    .round {
+        border-radius: 20px;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texts and Borders</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Texts and Borders</h1>
+    <fieldset>
+        <legend>Text Color</legend>
+        <p style="color: maroon;">This is maroon.</p>
+        <p style="color: navy;">This is navy.</p>
+        <p style="color: indigo;">This is indigo.</p>
+    </fieldset>
+    <fieldset>
+        <legend>Spacing</legend>
+        <p style="letter-spacing: 2px; word-spacing: 5px; line-height: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a fringilla ligula. Fusce laoreet lorem ut mollis laoreet. Phasellus a libero et nisl hendrerit congue. Praesent varius nunc nec ullamcorper ullamcorper. Proin interdum, leo vitae interdum vestibulum, lectus nisl laoreet eros, eu tincidunt quam est vitae ante. Nulla sodales, ex at luctus tristique, risus ligula blandit leo, eget ultricies ipsum purus a justo. Ut porta ut libero non pharetra. Aliquam consequat, ante eu interdum eleifend, massa neque hendrerit leo, sed tincidunt leo ipsum id elit. Integer in lacinia nisl. Curabitur in varius metus. Pellentesque varius leo sed fringilla maximus. Donec aliquet ultrices nibh, ut consequat eros ullamcorper et. Praesent eleifend hendrerit enim a lobortis. In quis enim malesuada, elementum velit sed, varius metus. Etiam a elementum neque. Aliquam imperdiet nisi magna, non laoreet mi suscipit ac.</p>
+    </fieldset>
+    <fieldset>
+        <legend>Transform</legend>
+        <p style="text-transform: uppercase;">Transform uppercase</p>
+        <p style="text-transform: lowercase;">Transform lowercase</p>
+        <p style="text-transform: capitalize;">Transform capitalized</p>
+    </fieldset>
+    <fieldset>
+        <legend>Font</legend>
+        <p style="font-family: 'Courier New'; font-size: 20px;">Font Properties:</p>
+        <ul style="list-style-type: circle; font-family: Tahoma; font-size: 15px;">
+            <li>text-align</li>
+            <li>color</li>
+            <li>letter-spacing</li>
+            <li>word-spacing</li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Border Style</legend>
+        <p class="border color1 solid">This is solid.</p>
+        <p class="border color2 dotted">This is double.</p>
+        <p class="border color3 ridge">This is ridge.</p>
+        <p class="border color1 double">This is double.</p>
+        <p class="border color2 inset">This is inset.</p>
+        <p class="border color3 outset">This is outset.</p>
+    </fieldset>
+    <fieldset>
+        <legend>Round Border</legend>
+        <p class="border color1 solid round">This is solid but round.</p>
+        <p class="border color2 dotted round">This is double but round.</p>
+        <p class="border color3 ridge round">This is ridge but round</p>
+    </fieldset>
+</body>
+</html>
