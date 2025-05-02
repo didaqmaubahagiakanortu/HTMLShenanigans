@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*= "col-"] {
+    padding: 15px; float: left; width: 100%;
+}
+
+.header {
+    background: url(telkomLogoSmall.png) #5e0001 no-repeat center;
+    background-size: 100px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 41.66%;}
+    .col-s-2 {width: 58.33%;}
+    .header {
+        background: url(telkomLogoDefault.png) #5e0001 no-repeat center;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 25%;}
+    .col-2 {width: 75%;}
+    .col-3 {width: 100%;}
+    .header {
+        background: url(telkomLogoDefault.png) #5e0001 no-repeat center;
+        height: 200px;
+    }
+}
